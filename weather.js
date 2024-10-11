@@ -48,7 +48,6 @@ const getForecast= async()=>{
 
 const initCLI = () => {
     const args = getArgs(process.argv)
-    console.log(args)
     if(args.h) {
         return printHelp()
     }
